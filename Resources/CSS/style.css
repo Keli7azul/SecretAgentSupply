@@ -1,0 +1,12 @@
+
+html {
+  font-size: 18px;
+  width: 960px;
+  background-color: blue;
+}
+
+img .header {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
