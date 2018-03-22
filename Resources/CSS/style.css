@@ -2,11 +2,38 @@
 html {
   font-size: 18px;
   width: 960px;
-  background-color: blue;
+background-color: lightblue;
+font-family: Helvetica;
 }
 
-img .header {
-  height: 1.5rem;
-  padding-left: 0.5rem;
-  padding-right: 1rem;
+.company {
+    background-color: black;
+    color: white;
 }
+
+.company .container {
+    display: flex;
+    align-items: center;
+    padding: 12px 0 12px 0.5em;
+}
+
+.main-banner {
+    background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25em;
+}
+user agent stylesheet
+div {
+    display: block;
+  }
+
+  .headline {
+      background-color: black;
+      color: white;
+      width: 20em;
+      padding: 2em 3em;
+      position: relative;
+      top: 9em;
+  }
