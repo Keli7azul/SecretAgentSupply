@@ -2,7 +2,7 @@
 html {
   font-size: 18px;
   width: 960px;
-background-color: lightblue;
+background-color: white;
 font-family: Helvetica;
 }
 
@@ -17,6 +17,58 @@ font-family: Helvetica;
     padding: 12px 0 12px 0.5em;
 }
 
+
+
+div {
+    display: block;
+}
+
+@media only screen and (max-width: 1024px)
+body {
+    font-size: 16px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.products, .business-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0 0 0;
+}
+user agent stylesheet
+
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+html {
+    font-size: 18px;
+    background-color: white;
+}
+
+
+  /*--Header Section-*/
+  /*--Logo--*/
+.headline {
+    background-color: black;
+    color: white;
+    width: 20em;
+    padding: 2em 3em;
+    position: relative;
+    top: 9em;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+@media only screen and (max-width: 1024px)
+body {
+    font-size: 16px;
+}
+/*--Main Banner Section--*/
 .main-banner {
     background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
     background-repeat: no-repeat;
@@ -24,16 +76,60 @@ font-family: Helvetica;
     background-size: cover;
     height: 25em;
 }
-user agent stylesheet
-div {
-    display: block;
+/*--Nav Catagories Section--*/
+nav  {
+      background-color: firebrick;
+      color: white;
   }
 
-  .headline {
-      background-color: black;
-      color: white;
-      width: 20em;
-      padding: 2em 3em;
-      position: relative;
-      top: 9em;
-  }
+  nav {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75em 0;
+    list-style: none;
+}
+
+/*-- Product Grid Section--*/
+product-image {
+    height: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    padding: 2em 0px;
+}
+
+div {
+    display: block;
+}
+/*-Location Section--*/
+/*--Hours Section--*/
+.info {
+    width: 35%;
+}
+
+.info .title {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+}
+
+/*footer*/
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 4em;
+    padding: 5em 0px;
+}
+ footer {
+    display: block;
+}
