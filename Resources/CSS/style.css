@@ -193,15 +193,33 @@ div {
 /*-Location Section--*/
 /*--Hours Section--*/
 .info {
-    width: 35%;
+    width: 336px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
 }
 
 .info .title {
-    display: block;
+  text-align:;
+    /*display: block;
     background-color: black;
     color: white;
-    padding: 2rem 2rem;
-    display: inline-block;
+    padding-top: : 1rem;
+    padding-bottom: 1rem;
+    padding-left:5rem;
+    padding-left: 5rem;
+    display: inline-block;*/
+}
+
+span .info {
+  height: 5rem;
+  text-align: left;
 }
 
 
