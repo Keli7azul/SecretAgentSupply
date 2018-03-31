@@ -6,9 +6,18 @@ background-color: white;
 font-family: Helvetica;
 }
 
+
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+
+
+/*company container*/
 .company {
     background-color: black;
     color: white;
+    height: 5rem;
 }
 
 .company .container {
@@ -18,40 +27,27 @@ font-family: Helvetica;
 }
 
 
-
+/*main-banner.container*/
 div {
     display: block;
 }
 
-@media only screen and (max-width: 1024px)
-body {
-    font-size: 16px;
-}
-
-.container {
+main-banner.container {
     max-width: 960px;
     margin: 0 auto;
+    height: 25rem;
 }
 
-.products, .business-info {
-    display: flex;
-    justify-content: space-between;
-    margin: 3em 0 0 0;
-}
-user agent stylesheet
-
-body {
-    font-family: Helvetica, sans-serif;
-    line-height: 1.4em;
-}
-html {
-    font-size: 18px;
-    background-color: white;
+.main-banner {
+    background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25em;
 }
 
-
-  /*--Header Section-*/
-  /*--Logo--*/
+/*div.headline*/
+/*h4*/
 .headline {
     background-color: black;
     color: white;
@@ -60,29 +56,39 @@ html {
     position: relative;
     top: 9em;
 }
-user agent stylesheet
-div {
-    display: block;
-}
-@media only screen and (max-width: 1024px)
-body {
-    font-size: 16px;
-}
-/*--Main Banner Section--*/
-.main-banner {
-    background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 25em;
-}
-/*--Nav Catagories Section--*/
-nav  {
-      background-color: firebrick;
-      color: white;
-  }
 
-  nav {
+h4 {
+    display: block;
+    margin-before: 1.33em;
+    margin-after: 1.33em;
+    margin-start: 0px;
+    margin-end: 0px;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 0.25rem;
+}
+
+h1 {
+    display: block;
+    font-size: 1.5em;
+    margin-before: 0.67em;
+    margin-after: 0.67em;
+    margin-start: 0px;
+    margin-end: 0px;
+    font-weight: bold;
+    padding-top: 0.25rem;
+    padding-left: 3rem;
+}
+
+/*nav*/
+nav {
+    background-color: firebrick;
+    color: white;
+    height: 5rem;
+}
+
+nav {
     display: block;
 }
 
@@ -94,7 +100,65 @@ nav ul {
     list-style: none;
 }
 
-/*-- Product Grid Section--*/
+nav ul li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0px;
+    margin-end: 0px;
+    padding-start: 40px;
+}
+
+/*.mobile nav*/
+/*.mobile-nav {
+    display: none;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75em 0;
+    list-style: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0px;
+    margin-end: 0px;
+    padding-start: 40px;
+}*/
+
+/*Products Grid*/
+.products, .business-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0 0 0;
+    height: 27rem;
+}
+
+div {
+    display: block;
+}
+/*@media only screen and (max-width: 1024px)
+body {
+    font-size: 16px;
+}*/
+
 product-image {
     height: 9em;
     display: flex;
@@ -104,7 +168,15 @@ product-image {
     border-style: solid;
     border-color: black;
     border-image: initial;
-    padding: 2em 0px;
+  /*  padding: 2em 0px;*/
+}
+
+.product-image img {
+    max-width: 8em;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
 }
 
 div {
@@ -121,6 +193,7 @@ div {
     background-color: black;
     color: white;
     padding: 1em 2em;
+    display: inline-block;
 }
 
 /*footer*/
