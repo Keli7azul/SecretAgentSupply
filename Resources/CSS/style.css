@@ -177,6 +177,16 @@ body {
     padding-left: 3rem;
 }
 
+.description {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+/*padding: 0.5em;*/
+}
+
 div {
     display: block;
 }
@@ -190,9 +200,10 @@ div {
     display: block;
     background-color: black;
     color: white;
-    padding: 1em 2em;
+    padding: 2rem 2rem;
     display: inline-block;
 }
+
 
 /*footer*/
 footer {
